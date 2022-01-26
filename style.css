@@ -1,0 +1,34 @@
+#oldNp{
+    background-image: url("images/old-Np.jpg");
+    width: 100%;
+}
+
+#newNp{
+    background-image: url("images/New-Np.jpg");
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 8px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgb(63, 73, 102);
+}
