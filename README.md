@@ -13,6 +13,9 @@ This project aims to help students taking their final-year exams or looking to p
 # Testing
 
 # Credits
+Background image avaliable at:
+https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif
+
 ## Media
 
 ## Content
