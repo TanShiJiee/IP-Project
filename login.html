@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Login</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div id="enter-logo">
+        <img class="front-logo" src="images/logo/mobile-logo.png" alt="Logo Design">
+    </div>
+    <div id="loading-animation">
+        <lottie-player src="https://assets4.lottiefiles.com/private_files/lf30_ffyl4lkc.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+    </div>
+    
+    <div id="login-field">
+        <input class="email" type="email" placeholder="EMAIL" required><br>
+        <input class="password" type="password" placeholder="PASSWORD" required><br>
+    </div>
+    <div id="signup-link">
+      <a href="signup.html">Don't have an account?</a>
+    </div>
+
+    <div class="register-button">
+      <input type="submit" id="login-button" placeholder="Enter">
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</html>
