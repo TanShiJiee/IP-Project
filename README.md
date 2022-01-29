@@ -13,6 +13,15 @@ This project aims to help students taking their final-year exams or looking to p
 # Testing
 
 # Credits
+Background image avaliable at:
+https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif
+
+Image of old ngee ann polytechnic image avaliable at:
+https://www.adb.org/sites/default/files/styles/full_width/public/multimedia-feature/ngee-ann-polytechnic-before.jpg?itok=Ma4EPBSP
+
+Image of new ngee ann polytechnic image avaliable at:
+https://scontent.fsin8-1.fna.fbcdn.net/v/t1.6435-9/p180x540/162275058_10158629954334219_686432234409864079_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8631f5&_nc_ohc=V6emgcJ7mp4AX8jsUap&_nc_ht=scontent.fsin8-1.fna&oh=00_AT-6fZhhVfW0VS0M_lSvzB8cHn57jRA6XZYHuusmodOTOg&oe=62185775
+
 ## Media
 
 ## Content
