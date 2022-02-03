@@ -478,3 +478,12 @@ img {
     margin-bottom: 3%;
     margin-left: 20%;
 }
+/*contact page*/
+#map {
+    position: absolute;
+    top: 35%;
+    bottom: 0;
+    right:0;
+    width: 30%;
+    height: 50%;
+  }
