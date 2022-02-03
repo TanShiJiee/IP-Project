@@ -1,7 +1,6 @@
 var count = 0;
-
+const APIKEY = "61f2a3b17e5527229501717c";
 function questionOne(className){
-    console.log(className)
     if (className == "choice-three"){
         count+=1
         console.log(count)
@@ -18,10 +17,8 @@ function questionOne(className){
 }
 
 function questionTwo(className){
-    console.log(className)
     if (className == "choice-four"){
         count+=1
-        console.log(count)
         document.getElementById("question-two").style.display = "none"; 
         document.getElementById("question-three").style.display = "block"; 
         
@@ -35,16 +32,15 @@ function questionTwo(className){
 }
 
 function questionThree(className){
-    console.log(className)
     if (className == "choice-one"){
         count+=1
-        console.log(count)
         document.getElementById("question-three").style.display = "none"; 
         document.getElementById("score").style.display = "block"; 
         $("#points").text(count + '/3');
         $("#stars-earned").text("+ "+count +" star");
         var starGet=localStorage.getItem('stars');
         localStorage.setItem('stars',parseInt(starGet)+parseInt(count))
+        var starGet=localStorage.getItem('stars');
         displayScore()
     }
 
@@ -56,14 +52,18 @@ function questionThree(className){
         $("#stars-earned").text("+ "+count +" star");
         var starGet=localStorage.getItem('stars');
         localStorage.setItem('stars',parseInt(starGet)+parseInt(count))
+        var starGet=localStorage.getItem('stars');
         displayScore()
     }
 }
 
-
 function displayScore(){
     var starGet=localStorage.getItem('stars');
     $("#score-top").text(starGet);
-
+    updateData();
 }
-displayScore()
+
+
+displayScore();
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Games & Events</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+    <header>
+      <img class="logo" src="images/logo/Logo.png" alt="Logo Design">
+    </header>
+    <div id="star-position">
+      <img id="star-image" src="images/logo/star.png" alt="Points placed here">
+      <p id="score-top"></p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ict.html">ICT</a></li>
+        <li><a class="active-nav" href="events.html">Games & Events</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="quiz">
+        <h3>Are You Ready?</h3>
+        <p>Play these game. Test Your Knowledge. Have Fun!</p>
+        <h2 id="quiz-header">How Much Do You Know?</h2>
+        <div id="quiz-container">
+            <div id="question-one">
+                <p class="question">When was Ngee Ann Poly established?</p>
+                <button class="choice-one" onclick="questionOne(this.getAttribute('class'))">1) 2009</button>
+                <button class="choice-two" onclick="questionOne(this.getAttribute('class'))">2) 1990</button>
+                <button class="choice-three" onclick="questionOne(this.getAttribute('class'))">3) 1963</button>
+                <button class="choice-four" onclick="questionOne(this.getAttribute('class'))">4) 1976</button>
+            </div>
+            <div id="question-two">
+                <p class="question">How many courses are there in NP ICT?</p>
+                <button class="choice-one" onclick="questionTwo(this.getAttribute('class'))">1) 2</button>
+                <button class="choice-two" onclick="questionTwo(this.getAttribute('class'))">2) 3</button>
+                <button class="choice-three" onclick="questionTwo(this.getAttribute('class'))">3) 4</button>
+                <button class="choice-four" onclick="questionTwo(this.getAttribute('class'))">4) 5</button>
+            </div>
+            <div id="question-three">
+                <p class="question">What does IM mean? </p>
+                <button class="choice-one" onclick="questionThree(this.getAttribute('class'))">1) Immersive Media</button>
+                <button class="choice-two" onclick="questionThree(this.getAttribute('class'))">2) Instant Messaging</button>
+                <button class="choice-three" onclick="questionThree(this.getAttribute('class'))">3) International Management</button>
+                <button class="choice-four" onclick="questionThree(this.getAttribute('class'))">4) Information Management</button>
+            </div>
+            <div id="score">
+                <h3>You Scored:</h3>
+                <p id="points"></p>
+                <p id="stars-earned"></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+      <p id="main-footer">Copyright &copy 2021. All Rights Reserved. Website made by ducking.
+      </p>
+    </footer>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="javascript/events.js"></script>
+  
+</html>
