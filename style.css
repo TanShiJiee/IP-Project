@@ -9,29 +9,55 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(171, 177, 250, 0.8);
+    background-color: rgba(171, 177, 250, 0.5);
     border-radius: 0px;
-    margin-bottom: 1%;
+    margin-bottom: 0%;
     width: 100%;
+}
+#star-position{
+    position: absolute;
+    width:7%;
+    height: 15%;
+    right:0;
+    top:0;
+    z-index: 2;
+    overflow: hidden;
+    text-align: center
+}
+#star-image{
+    position: relative;
+    width:100%;  
+    z-index: 2;
+}
+
+#score-top{
+    position: absolute;
+    font-size: 30pt;
+    width: 100%;
+    right:0;
+    top:35%;
+    z-index: 3;
+    margin: 0;
 }
 
 /*Logo Image*/
 .logo{
-    width: 15%;
+    width: 30%;
     display: flex;
     padding: 1%;
     justify-content: center;
 }
+/*Logo image for sign up and login page*/
 #enter-logo{
     display: flex;
     justify-content: center;
     margin-top: 3%;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
     width: 100%
 
 }
 .front-logo{
-    width:30%;
+    width:25%;
     background: rgb(241, 234, 234, 0.7);
     border-radius: 15px;
 }
@@ -51,7 +77,6 @@ footer{
 /*Loading animation after login page*/
 #loading-animation{
     position: absolute;
-    display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -66,9 +91,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(171, 177, 250);
+    background-color: rgb(171, 177, 250,0.6);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
   
 li a {
@@ -188,8 +213,12 @@ img {
 /*Ngee Ann Poly Old and New Picture*/
 /*Includes background image of old NP*/
 #oldNp{
-    background-image: url("images/old-Np.jpg");
+    background-image: url("images/old-Np2.jpg");
     width: 100%;
+}
+
+#background-old{
+    background-color: rgba(255, 255, 255, 0.712);
 }
 
 /*Includes background image of new NP*/
@@ -197,18 +226,23 @@ img {
     background-image: url("images/New-Np.jpg");
     width: 100%;
 }
+#background-new{
+    background-color: rgba(221, 254, 255, 0.712);
+}
 
 /*text of NP's History and text of why NP*/
 .picture-header{
     text-align: center;
     padding-top: 10%;
     font-size: 30pt;
+    margin-top: 0%;
 }
 
 .picture-text{
     text-align: center;
     padding-bottom: 10%;
     font-size: 20pt;
+    margin-bottom: 0%;
 }
 
 /*more information text*/
@@ -313,16 +347,30 @@ img {
 }
 #login-button{
     padding:0.5%;
-    font-size: 9pt;
     width:10%;
     background-color: rgba(63, 249, 255, 0.74);
     border-radius: 10px;
     font-size: 20pt;
     box-shadow: 2px 2px 20px rgb(63, 249, 255);
     text-align: center;
-
 }
+
 /*Signup Page*/
+#signup-text{
+    width: 100%;
+    margin-left: 40%;
+}
+
+#signup-text h3{
+    width:20%;
+    background-color: rgba(213, 242, 255, 0.829);
+    text-align: center;
+    font-size: 16pt;
+    padding-top:1%;
+    padding-bottom:1%;
+    border-radius: 15px;
+}
+
 #signup-field{
     padding:0%;
     margin-left: 31%;
@@ -344,7 +392,6 @@ img {
 
 #signup-button{
     padding:0.5%;
-    font-size: 9pt;
     width:10%;
     background-color: rgb(63, 108, 255, 0.74);
     border-radius: 10px;
@@ -353,4 +400,81 @@ img {
     text-align: center;
 }
 
+/*Games & Events Page*/
+#quiz h3, #quiz h2{
+    text-align: center;
+}
 
+#quiz p{
+    text-align: center;
+}
+
+#quiz-container{
+    background-color: rgba(158, 169, 221, 0.931);
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 24%;
+    margin-bottom: 2%;;
+    border-radius: 27px;
+}
+
+#question-one{
+    display: block;
+}
+
+#question-two{
+    display: none;
+}
+
+#question-three{
+    display: none;
+}
+
+#score{
+    display: none;
+}
+
+#score h3{
+    font-size: 20pt;
+}
+
+#score p{
+    font-size: 15pt;
+}
+
+#stars-earned{
+    text-align: center;
+    background-color: rgba(198, 255, 249, 0.815);
+    border-radius: 20px;
+}
+
+.choice-one, .choice-two, .choice-three, .choice-four{
+    background-color: rgb(213, 242, 255);
+    border-radius: 20px;
+}
+
+#question-one button{
+    padding-left:40%;
+    padding-right:40%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    margin-bottom: 3%;
+}
+
+#question-two button{
+    padding-left:45%;
+    padding-right:44%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    margin-bottom: 3%;
+}
+
+#question-three button{
+    width:60%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+}
