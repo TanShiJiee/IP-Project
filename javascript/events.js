@@ -60,7 +60,6 @@ function questionThree(className){
 function displayScore(){
     var starGet=localStorage.getItem('stars');
     $("#score-top").text(starGet);
-    updateData();
 }
 
 
