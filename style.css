@@ -47,7 +47,7 @@ header{
 .logo{
     width: 18%;
     display: flex;
-    padding: 0.5%;
+    padding: 0%;
     justify-content: center;
 }
 
@@ -193,11 +193,10 @@ ul {
   
 li a {
     display: block;
-    color: rgb(19, 19, 19);
+    color: rgb(77, 77, 77);
     text-align: center;
     padding: 15px 8px;
     text-decoration: none;
-    font-size: 20pt;
 }
 
 li a:hover {
@@ -209,6 +208,7 @@ li a:hover {
     background-color: rgb(165, 72, 87);
     color: white;
 }
+
 
 /*Slideshow*/
 .Slides {
@@ -507,6 +507,7 @@ img {
 .choice-one, .choice-two, .choice-three, .choice-four{
     background-color: rgb(213, 242, 255);
     border-radius: 20px;
+    font-size: 12pt;
 }
 
 #question-one button{
