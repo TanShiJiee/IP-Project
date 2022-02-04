@@ -1,5 +1,5 @@
 body{
-    background-image: url(images/Background-image.gif);
+    background-image: url(images/background.gif);
     background-color: #cccccc;
     margin:0px;
 }
@@ -302,6 +302,14 @@ img {
     justify-content: center;
     padding:1%;
     width: 100%;
+}
+#courses-ict{
+    text-align: center;
+}
+#cictp-info,#csf-info,#ds-info,#it-info,#im-info{
+    background-color: rgb(119, 223, 255);
+    padding:2%;
+    margin-bottom: 2%;
 }
 
 /*Shop Page*/
