@@ -451,9 +451,6 @@ img {
     width:80%;
 }
 
-/*Shop Page*/
-
-
 /*Games & Events Page*/
 #quiz{
     background-color:rgba(254, 188, 89, 0.897) ;
@@ -543,12 +540,61 @@ img {
     margin-bottom: 3%;
     margin-left: 20%;
 }
+
+/*Shop Page*/
+/*shirt text & pictures*/
+#shirt-shop h3, #bag-shop h3, #model-shop h3{
+    background-color: rgb(213, 242, 255);
+    width: 56%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding:1%;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20pt;
+}
+.stars-column {
+    background-color: rgb(63, 108, 255, 1);
+    border-radius: 5px;
+    width: 5%;
+    padding: 2%;
+    color: white;
+    text-align: center;
+  }
+
+#shirt-shop img{
+    width:70%;
+}
+#bag-shop img{
+    width: 70%;
+}
+
+.item-row{
+    display: flex;
+}
+
+.item-column{
+    flex: 40%;
+    padding:2%;
+    text-align: center;
+}
+
+.stars-row{
+    display: flex;
+}
+
+.stars-column{
+    flex: 30%;
+    padding:2%;
+    text-align: center;
+    width:5%;
+    margin:8%;
+    margin-top:1%;
+}
+  
 /*contact page*/
 #map {
-    position: absolute;
-    top: 35%;
-    bottom: 0;
-    right:0;
-    width: 30%;
-    height: 50%;
+    position: relative;
+    height: 400px;
+    width: 100%;
   }
