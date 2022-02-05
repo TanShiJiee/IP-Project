@@ -41,6 +41,12 @@ function questionThree(className){
         var starGet=localStorage.getItem('stars');
         localStorage.setItem('stars',parseInt(starGet)+parseInt(count))
         var starGet=localStorage.getItem('stars');
+        if (count>=2){
+            document.getElementById("trophy-animation").style.display = "block"; 
+        }
+        else{
+            document.getElementById("sad-animation").style.display = "block"; 
+        }
         displayScore()
     }
 
@@ -53,6 +59,12 @@ function questionThree(className){
         var starGet=localStorage.getItem('stars');
         localStorage.setItem('stars',parseInt(starGet)+parseInt(count))
         var starGet=localStorage.getItem('stars');
+        if (count>=2){
+            document.getElementById("trophy-animation").style.display = "block"; 
+        }
+        else{
+            document.getElementById("sad-animation").style.display = "block"; 
+        }
         displayScore()
     }
 }
