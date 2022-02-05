@@ -51,7 +51,7 @@ function timeSeconds(){
     setTimeout(function(){goToHome()},4000)
 }
 function goToHome(){
-    window.location = "index.html"
+    window.location = "home.html"
 
 }
 //Sign Up Page
@@ -122,7 +122,7 @@ $(document).ready(function () {
 
                     $.ajax(settings).done(function (response) {
                     console.log(response);
-                    window.location = "login.html"
+                    window.location = "index.html"
 
                     });
             }
