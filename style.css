@@ -455,6 +455,16 @@ img {
 
 
 /*Games & Events Page*/
+#quiz{
+    background-color:rgba(254, 188, 89, 0.897) ;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 15px;
+}
 #quiz h3, #quiz h2{
     text-align: center;
 }
@@ -507,7 +517,7 @@ img {
 .choice-one, .choice-two, .choice-three, .choice-four{
     background-color: rgb(213, 242, 255);
     border-radius: 20px;
-    font-size: 12pt;
+    font-size: 10pt;
 }
 
 #question-one button{
