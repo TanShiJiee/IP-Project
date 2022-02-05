@@ -3,85 +3,32 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Home</title>
+    <title>Login</title>
     <link type="text/css" rel="stylesheet" href="normalize.css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
-  
+
   <body>
-    <header>
-      <img class="logo" src="images/logo/logo.png" alt="Logo Design">
-    </header>
-    <div id="star-position">
-      <img id="star-image" src="images/logo/star.png" alt="Points placed here">
-      <p id="score-top"></p>
+    <div id="enter-logo">
+        <img class="front-logo" src="images/logo/mobile-logo.png" alt="Logo Design">
+    </div>
+    <div id="loading-animation">
+      <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_juf4idvo.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
     </div>
     
-    <nav>
-      <ul>
-        <li><a class="active-nav" href="index.html">Home</a></li>
-        <li><a href="ict.html">ICT</a></li>
-        <li><a href="events.html">Games & Events</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <br>
-    <!--slideshow to for images with the animation of fading-->
-    <section class="slideshow-container">
-      <div class="Slides fade">
-        <div class="number">1/3</div>
-        <img src="images/home-images/slideshow1.png" class="pictures" alt="Walking Picture">
-      </div>
-
-      <div class="Slides fade">
-        <div class="number">2/3</div>
-        <img src="images/home-images/slideshow2.png" class="pictures" alt="Atrium Picture">
-      </div>
-
-      <div class="Slides fade">
-        <div class="number">3/3</div>
-        <img src="images/home-images/slideshow3.png" class="pictures" alt="Munch Picture">
-      </div>
-
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </section>
-
-    <br>
-    <!--The dots/circles -->
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
+    <div id="login-field">
+        <input class="email" type="email" placeholder="EMAIL" required><br>
+        <input class="password" type="password" placeholder="PASSWORD" required><br>
     </div>
-    <br>
-    <section id="oldNp">
-      <div id="background-old">
-        <h3 class="picture-header">History of Ngee Ann Polytechnic</h3>
-        <p class="picture-text">Established on 25 May 1963<br>
-        8 schools avaliable, 39 courses</p>
-      </div>
-    </section>
-    <br>
-    <section id="newNp">
-      <div id="background-new">
-        <h3 class="picture-header">Why choose Ngee Ann Poly ICT?</h3>
-        <p class="picture-text">Real world contexts<br>
-        Variety of internship related to ICT<br>
-        In demand ICT related skills for the future</p>
-      </div>
-    </section> 
+    <div id="signup-link">
+      <a href="signup.html">Don't have an account?</a>
+    </div>
 
-    <section id="more-info">
-      <p>For more information on other schools in NP, do check out the <a href="https://www.np.edu.sg/Pages/default.aspx" target="_blank"><b>offical website here</b></a>!</p>
-    </section>
-
-    <footer><p id="main-footer">Copyright &copy 2021. All Rights Reserved. Website made by ducking.</p></footer>
-
-
+    <div class="register-button">
+      <input type="submit" value="Log In" id="login-button">
+    </div>
   </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
   <script src="javascript/script.js"></script>
-  <script src="javascript/home.js"></script>
-  </html>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</html>
