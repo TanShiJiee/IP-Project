@@ -502,8 +502,8 @@ img {
     background-color:rgba(254, 188, 89, 0.897) ;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 1%;
-    margin-top: 1%;
+    margin-bottom: 5%;
+    margin-top: 3%;
     padding-top: 2%;
     padding-bottom: 2%;
     border-radius: 15px;
@@ -671,7 +671,7 @@ img {
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 15px;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 }
 #event-one{
     background-color: rgb(199, 219, 255);
@@ -690,11 +690,12 @@ img {
 #event-two{
     background-color: rgb(199, 219, 255);
     padding: 1%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     border-radius: 10px;
     transition: 0.3s;
     width:80%;
     margin-left: 10%;
+    margin-bottom: 4%;
 }
 #events-button{
     cursor: pointer;
@@ -803,11 +804,12 @@ img {
     width: 100%;
 }
 
-.container{
+.contact-container{
+    width:90%;
     background-color: rgb(254, 188, 89);
-    margin:2%;
+    margin:5%;
     border-radius: 15px;
     padding: 2%;
-    margin-left: 15%;
+
 }
 
