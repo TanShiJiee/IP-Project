@@ -498,7 +498,7 @@ img {
 }
 
 /*Games & Events Page*/
-#quiz{
+#game-container{
     background-color:rgba(254, 188, 89, 0.897) ;
     margin-left: 10%;
     margin-right: 10%;
@@ -508,11 +508,11 @@ img {
     padding-bottom: 2%;
     border-radius: 15px;
 }
-#quiz h2{
+#game-container h2{
     text-align: center;
 }
 
-#quiz p{
+#game-container p{
     text-align: center;
 }
 
@@ -540,6 +540,7 @@ img {
 }
 
 #score{
+    text-align: center;
     display: none;
 }
 
@@ -599,6 +600,68 @@ img {
     margin-bottom: 3%;
     margin-left: 20%;
 }
+/*hide and seek game*/
+.next-level{
+    width:100%;
+}
+
+#character-place{
+    width:10%;
+    position:absolute;
+    margin-left: 70%;
+    margin-top: 20%;
+}
+
+#character-place-two{
+    width:8%;
+    position:absolute;
+    margin-left: 7%;
+    margin-top: 65%;
+}
+
+#character-place-three{
+    width:6%;
+    position:absolute;
+    margin-left: 5%;
+    margin-top: 48%;
+}
+
+#seek-container, #seek-container-two, #seek-container-three, #play-animation{
+    position: relative;
+    border-radius: 15px;
+    width: 80%;
+    height:70%;
+    margin-left:10%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+#seek-container-two, #seek-container-three{
+    display: none;
+}
+#seek-container{
+    display: block;
+}
+#game-text, #game-text-two, #game-text-three{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.835);
+    bottom:0;
+    width:100%;
+    text-align: center;
+    color: #dbdbff;
+    display: none;
+}
+/*Finish Hide and Seek Game Animation*/
+#play-animation{
+    text-align: center;
+    display: none;
+    background-color: rgb(218, 215, 250);
+}
+#finish-animation{
+    margin-left: 36%;
+    margin-right: 10%;
+}
+
+
 
 /*Events section in Game & Events page*/
 #events{

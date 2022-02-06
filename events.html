@@ -70,23 +70,34 @@
       <!--Game Hide 'n Seek'-->
       <!--Level 1-->
       <h2 id="seek-header">Hide 'n Seek</h2>
-      <div id="seek-container1">
-        <img id="character-place" src="images/game/find-girl.png" onclick="level1()">
+      <div id="seek-container">
+        <img id="character-place" src="images/game/find-girl.png" onclick="levelOne()">
         <img class="next-level" src="images/game/background-game1.jpg">
-        <lottie-player id="level1-animation" src="https://assets3.lottiefiles.com/packages/lf20_dnCzip.json"  background="transparent"  speed="1"  style="width: 94%; height: 74%;"  loop  autoplay></lottie-player>
+        <div id="game-text">
+          <p><b>Good Job! On to the next level! You Earned 2 stars!</b></p>
+        </div>
       </div>
       <!--Level 2 to display upon completion-->
-      <div id="seek-container2">
-        <img id="character-place2" src="images/game/find-boy.png" onclick="level2()">
+      <div id="seek-container-two">
+        <img id="character-place-two" src="images/game/find-boy.png" onclick="levelTwo()">
         <img class="next-level" src="images/game/background-game2.jpg">
-        <lottie-player id="level2-animation" src="https://assets3.lottiefiles.com/packages/lf20_dnCzip.json"  background="transparent"  speed="1"  style="width: 94%; height: 74%;"  loop  autoplay></lottie-player>
+        <div id="game-text-two">
+          <p><b>Well Done! You Earned another 2 stars!</b></p>
+        </div>
       </div>
       <!--Level 3 to display upon completion-->
-      <div id="seek-container3">
-        <img id="character-place3" src="images/game/find-girl.png" onclick="level3()">
+      <div id="seek-container-three">
+        <img id="character-place-three" src="images/game/find-girl.png" onclick="levelThree()">
         <img class="next-level" src="images/game/bakcground-game3.jpeg">
-        <lottie-player id="level3-animation" src="https://assets3.lottiefiles.com/packages/lf20_dnCzip.json"  background="transparent"  speed="1"  style="width: 94%; height: 74%;"  loop  autoplay></lottie-player>
+        <div id="game-text-three">
+          <p><b>Excellent! You Earned 2 more stars!</b></p>
+        </div>
       </div>
+      <div id="play-animation">
+        <h2>CONGRATULATIONS!</h2>
+        <lottie-player id="finish-animation" src="https://assets10.lottiefiles.com/packages/lf20_i4zw2ddg.json"  background="transparent"  speed="0.7"  style="width: 300px; height: 300px;" loop  autoplay></lottie-player>
+      </div>
+      
     </section>
     <!--Events Section-->
     <section id="events">

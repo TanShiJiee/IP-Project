@@ -74,24 +74,58 @@ function displayScore(){
     $("#score-top").text(starGet);
 }
 
-
 displayScore();
+
 // hide and seek point system [for every round they can score 2 star]
-var pointsystem = 0
-function level1(){
-  document.getElementById("character-place").style.display='none';
-  pointsystem +=2
-  console.log(pointsystem)
+var pointSystem = 0
+function levelOne(){
+    document.getElementById("character-place").style.display='none';
+    pointSystem +=2
+    console.log(pointSystem)
+    document.getElementById("game-text").style.display = "block";
+    var starGet=localStorage.getItem('stars');
+    localStorage.setItem('stars',parseInt(starGet)+parseInt(pointSystem));
+    displayScore()
+    setTimeout(showLevelTwo,4000)
 }
 
-function level2(){
-    document.getElementById("character-place2").style.display='none';
-    pointsystem +=2
-    console.log(pointsystem)
-  }
+function showLevelTwo(){
+    document.getElementById("seek-container-two").style.display='block';
+    document.getElementById("seek-container").style.display='none';
+    document.getElementById("game-text").style.display = "none";
+}
 
-  function level3(){
-    document.getElementById("character-place3").style.display='none';
-    pointsystem +=2
-    console.log(pointsystem)
-  }
+function levelTwo(){
+    document.getElementById("character-place-two").style.display='none';
+    pointSystem=0
+    pointSystem +=2
+    console.log(pointSystem)
+    document.getElementById("game-text-two").style.display = "block";
+    var starGet=localStorage.getItem('stars');
+    localStorage.setItem('stars',parseInt(starGet)+parseInt(pointSystem));
+    displayScore()
+    setTimeout(showLevelThree,4000)
+}
+
+function showLevelThree(){
+    document.getElementById("seek-container-three").style.display='block';
+    document.getElementById("seek-container-two").style.display='none';
+    document.getElementById("game-text-two").style.display = "none";
+}
+
+function levelThree(){
+    document.getElementById("character-place-three").style.display='none';
+    pointSystem=0
+    pointSystem +=2
+    console.log(pointSystem)
+    document.getElementById("game-text-three").style.display = "block";
+    var starGet=localStorage.getItem('stars');
+    localStorage.setItem('stars',parseInt(starGet)+parseInt(pointSystem));
+    displayScore()
+    setTimeout(finishGame,4000)
+}
+
+function finishGame(){
+    document.getElementById("seek-container-three").style.display='none';
+    document.getElementById("play-animation").style.display = "block";
+}
