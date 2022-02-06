@@ -2,8 +2,8 @@ var starGet=localStorage.getItem('stars');
 $("#score-top").text(starGet);
 
 function item1(){
-    if (starGet>=10){
-        starGet-=10
+    if (starGet>=25){
+        starGet-=25
         console.log(starGet)
         localStorage.setItem('stars',parseInt(starGet))
         $("#score-top").text(starGet);
@@ -17,8 +17,8 @@ function item1(){
 }
 
 function item2(){
-    if (starGet>=10){
-        starGet-=10
+    if (starGet>=25){
+        starGet-=25
         console.log(starGet)
         localStorage.setItem('stars',parseInt(starGet))
         $("#score-top").text(starGet);
@@ -32,8 +32,8 @@ function item2(){
 }
 
 function item3(){
-    if (starGet>=15){
-        starGet-=15
+    if (starGet>=35){
+        starGet-=35
         console.log(starGet)
         localStorage.setItem('stars',parseInt(starGet))
         $("#score-top").text(starGet);
@@ -47,8 +47,8 @@ function item3(){
 }
 
 function item4(){
-    if (starGet>=15){
-        starGet-=15
+    if (starGet>=35){
+        starGet-=35
         console.log(starGet)
         localStorage.setItem('stars',parseInt(starGet))
         $("#score-top").text(starGet);
@@ -62,8 +62,8 @@ function item4(){
 }
 
 function item5(){
-    if (starGet>=25){
-        starGet-=25
+    if (starGet>=45){
+        starGet-=45
         console.log(starGet)
         localStorage.setItem('stars',parseInt(starGet))
         $("#score-top").text(starGet);
@@ -77,8 +77,8 @@ function item5(){
 }
 
 function item6(){
-    if (starGet>=25){
-        starGet-=25
+    if (starGet>=45){
+        starGet-=45
         console.log(starGet)
         localStorage.setItem('stars',parseInt(starGet))
         $("#score-top").text(starGet);
