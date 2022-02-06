@@ -657,11 +657,9 @@ img {
     background-color: rgb(218, 215, 250);
 }
 #finish-animation{
-    margin-left: 36%;
-    margin-right: 10%;
+    position: relative;
+    margin: auto;
 }
-
-
 
 /*Events section in Game & Events page*/
 #events{

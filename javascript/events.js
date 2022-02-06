@@ -86,7 +86,7 @@ function levelOne(){
     var starGet=localStorage.getItem('stars');
     localStorage.setItem('stars',parseInt(starGet)+parseInt(pointSystem));
     displayScore()
-    setTimeout(showLevelTwo,4000)
+    setTimeout(showLevelTwo,3000)
 }
 
 function showLevelTwo(){
@@ -104,7 +104,7 @@ function levelTwo(){
     var starGet=localStorage.getItem('stars');
     localStorage.setItem('stars',parseInt(starGet)+parseInt(pointSystem));
     displayScore()
-    setTimeout(showLevelThree,4000)
+    setTimeout(showLevelThree,3000)
 }
 
 function showLevelThree(){
@@ -122,7 +122,7 @@ function levelThree(){
     var starGet=localStorage.getItem('stars');
     localStorage.setItem('stars',parseInt(starGet)+parseInt(pointSystem));
     displayScore()
-    setTimeout(finishGame,4000)
+    setTimeout(finishGame,3000)
 }
 
 function finishGame(){
