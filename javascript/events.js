@@ -76,5 +76,22 @@ function displayScore(){
 
 
 displayScore();
+// hide and seek point system [for every round they can score 2 star]
+var pointsystem = 0
+function level1(){
+  document.getElementById("character-place").style.display='none';
+  pointsystem +=2
+  console.log(pointsystem)
+}
 
+function level2(){
+    document.getElementById("character-place2").style.display='none';
+    pointsystem +=2
+    console.log(pointsystem)
+  }
 
+  function level3(){
+    document.getElementById("character-place3").style.display='none';
+    pointsystem +=2
+    console.log(pointsystem)
+  }

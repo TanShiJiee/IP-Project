@@ -25,41 +25,63 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <!--Game Quiz-->
-    <section id="quiz">
+    <!--Game Section (Quiz & Hide 'n Seek Game)-->
+    <section id="game-container">
       <h2>Are You Ready?</h2>
       <p>Earn Stars. Test Your Knowledge. Have Fun!</p>
+      <!--Game Quiz-->
       <h2 id="quiz-header">How Much Do You Know?</h2>
       <div id="quiz-container">
-          <div id="question-one">
-              <p class="question">When was Ngee Ann Poly established?</p>
-              <button class="choice-one" onclick="questionOne(this.getAttribute('class'))">1) 2009</button>
-              <button class="choice-two" onclick="questionOne(this.getAttribute('class'))">2) 1990</button>
-              <button class="choice-three" onclick="questionOne(this.getAttribute('class'))">3) 1963</button>
-              <button class="choice-four" onclick="questionOne(this.getAttribute('class'))">4) 1976</button>
-          </div>
-          <div id="question-two">
-              <p class="question">How many courses are there in NP ICT?</p>
-              <button class="choice-one" onclick="questionTwo(this.getAttribute('class'))">1) 2</button>
-              <button class="choice-two" onclick="questionTwo(this.getAttribute('class'))">2) 3</button>
-              <button class="choice-three" onclick="questionTwo(this.getAttribute('class'))">3) 4</button>
-              <button class="choice-four" onclick="questionTwo(this.getAttribute('class'))">4) 5</button>
-          </div>
-          <div id="question-three">
-              <p class="question">What does IM mean? </p>
-              <button class="choice-one" onclick="questionThree(this.getAttribute('class'))">1) Immersive Media</button>
-              <button class="choice-two" onclick="questionThree(this.getAttribute('class'))">2) Instant Messaging</button>
-              <button class="choice-three" onclick="questionThree(this.getAttribute('class'))">3) International Management</button>
-              <button class="choice-four" onclick="questionThree(this.getAttribute('class'))">4) Information Management</button>
-          </div>
-          <div id="score">
-            <h3>You Scored:</h3>
-            <p id="points"></p>
-            <p id="stars-earned"></p>
-            <lottie-player id = "trophy-animation" src="https://assets10.lottiefiles.com/packages/lf20_clmd2mj6.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
-            <lottie-player id="sad-animation" src="https://assets8.lottiefiles.com/private_files/lf30_uDAsLk.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
-          </div>
+        <div id="question-one">
+            <p class="question">When was Ngee Ann Poly established?</p>
+            <button class="choice-one" onclick="questionOne(this.getAttribute('class'))">1) 2009</button>
+            <button class="choice-two" onclick="questionOne(this.getAttribute('class'))">2) 1990</button>
+            <button class="choice-three" onclick="questionOne(this.getAttribute('class'))">3) 1963</button>
+            <button class="choice-four" onclick="questionOne(this.getAttribute('class'))">4) 1976</button>
         </div>
+        <div id="question-two">
+            <p class="question">How many courses are there in NP ICT?</p>
+            <button class="choice-one" onclick="questionTwo(this.getAttribute('class'))">1) 2</button>
+            <button class="choice-two" onclick="questionTwo(this.getAttribute('class'))">2) 3</button>
+            <button class="choice-three" onclick="questionTwo(this.getAttribute('class'))">3) 4</button>
+            <button class="choice-four" onclick="questionTwo(this.getAttribute('class'))">4) 5</button>
+        </div>
+        <div id="question-three">
+            <p class="question">What does IM mean? </p>
+            <button class="choice-one" onclick="questionThree(this.getAttribute('class'))">1) Immersive Media</button>
+            <button class="choice-two" onclick="questionThree(this.getAttribute('class'))">2) Instant Messaging</button>
+            <button class="choice-three" onclick="questionThree(this.getAttribute('class'))">3) International Management</button>
+            <button class="choice-four" onclick="questionThree(this.getAttribute('class'))">4) Information Management</button>
+        </div>
+        <div id="score">
+          <h3>You Scored:</h3>
+          <p id="points"></p>
+          <p id="stars-earned"></p>
+          <lottie-player id = "trophy-animation" src="https://assets10.lottiefiles.com/packages/lf20_clmd2mj6.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+          <lottie-player id="sad-animation" src="https://assets8.lottiefiles.com/private_files/lf30_uDAsLk.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+        </div>
+      </div>
+      <br>
+      <!--Game Hide 'n Seek'-->
+      <!--Level 1-->
+      <h2 id="seek-header">Hide 'n Seek</h2>
+      <div id="seek-container1">
+        <img id="character-place" src="images/game/find-girl.png" onclick="level1()">
+        <img class="next-level" src="images/game/background-game1.jpg">
+        <lottie-player id="level1-animation" src="https://assets3.lottiefiles.com/packages/lf20_dnCzip.json"  background="transparent"  speed="1"  style="width: 94%; height: 74%;"  loop  autoplay></lottie-player>
+      </div>
+      <!--Level 2 to display upon completion-->
+      <div id="seek-container2">
+        <img id="character-place2" src="images/game/find-boy.png" onclick="level2()">
+        <img class="next-level" src="images/game/background-game2.jpg">
+        <lottie-player id="level2-animation" src="https://assets3.lottiefiles.com/packages/lf20_dnCzip.json"  background="transparent"  speed="1"  style="width: 94%; height: 74%;"  loop  autoplay></lottie-player>
+      </div>
+      <!--Level 3 to display upon completion-->
+      <div id="seek-container3">
+        <img id="character-place3" src="images/game/find-girl.png" onclick="level3()">
+        <img class="next-level" src="images/game/bakcground-game3.jpeg">
+        <lottie-player id="level3-animation" src="https://assets3.lottiefiles.com/packages/lf20_dnCzip.json"  background="transparent"  speed="1"  style="width: 94%; height: 74%;"  loop  autoplay></lottie-player>
+      </div>
     </section>
     <!--Events Section-->
     <section id="events">
