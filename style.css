@@ -193,7 +193,7 @@ ul {
   
 li a {
     display: block;
-    color: rgb(77, 77, 77);
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 15px 8px;
     text-decoration: none;
@@ -311,38 +311,73 @@ img {
 #oldNp{
     background-image: url("images/old-Np2.jpg");
     width: 100%;
+    padding-top: 5%;
+    padding-bottom: 10%;
 }
 
 #background-old{
     background-color: rgba(255, 255, 255, 0.712);
+    margin:15%;
+    border-radius: 100px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 5%;
 }
 
 /*Includes background image of new NP*/
 #newNp{
     background-image: url("images/New-Np.jpg");
     width: 100%;
+    padding-top: 5%;
+    padding-bottom: 10%;
 }
 #background-new{
-    background-color: rgba(221, 254, 255, 0.712);
+    background-color: rgba(221, 254, 255, 0.856);
+    margin:15%;
+    border-radius: 100px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 5%;
 }
 
 /*text of NP's History and text of why NP*/
 .picture-header{
     text-align: center;
-    padding-top: 10%;
-    font-size: 30pt;
+    padding-top: 5%;
+    font-size: 28pt;
     margin-top: 0%;
+    color: rgb(165, 72, 87);
 }
 
 .picture-text{
+    border-right: solid 10px rgba(0, 255, 106, 0.75);
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'Source Code Pro', monospace;  
+    font-size: 15pt;
+    color: rgba(180, 66, 202, 0.7);
+    margin: 0 auto;
+    animation: animated-text 4s steps(29,end) 1s 1 normal both, animated-cursor 700ms steps(29,end) infinite;
     text-align: center;
-    padding-bottom: 10%;
-    font-size: 20pt;
-    margin-bottom: 0%;
 }
+
+/* text animation */
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 472px;}
+  }
+  
+  /* cursor animations */
+  @keyframes animated-cursor{
+    from{border-right-color: rgba(0, 255, 106, 0.75);}
+    to{border-right-color: transparent;}
+  }
 
 /*more information text*/
 #more-info{
+    margin-top: 0.3%;
+    background-color: rgb(103, 116, 250);
+    padding: 0.2%;
     text-align: center;
     color: #E6E6FA;
     font-size: 23pt;
@@ -360,7 +395,7 @@ img {
 
 #more-info a:hover{
     text-decoration: none;
-    color: #b3faff;
+    color: #6bf5ff;
 }
 
 /*ICT Page*/
@@ -451,6 +486,17 @@ img {
     width:80%;
 }
 
+/*3d models showcase*/
+#showcase-row{
+    display: flex;
+}
+
+.showcase-column{
+    flex: 50%;
+    padding:1%;
+    text-align: center;
+}
+
 /*Games & Events Page*/
 #quiz{
     background-color:rgba(254, 188, 89, 0.897) ;
@@ -529,11 +575,13 @@ img {
 }
 
 #question-one button{
-    padding-left:40%;
-    padding-right:40%;
+    padding-left:30%;
+    padding-right:30%;
     padding-bottom: 3%;
     padding-top: 3%;
     margin-bottom: 3%;
+    margin-left:10%;
+    margin-right: 10%;
 }
 
 #question-two button{
@@ -550,6 +598,36 @@ img {
     padding-top: 3%;
     margin-bottom: 3%;
     margin-left: 20%;
+}
+
+/*Events section in Game & Events page*/
+#events{
+    background-color: rgba(254, 188, 89, 0.925);
+    text-align: center;
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    margin-bottom: 2%;
+}
+#event-one{
+    background-color: rgb(213, 242, 255);
+    padding: 1%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    transition: 0.3s;
+}
+#event-one:hover, #event-two:hover{
+    background-color: rgb(167, 212, 255);
+}
+
+#event-two{
+    background-color: rgb(213, 242, 255);
+    padding: 1%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+    transition: 0.3s;
 }
 
 /*Shop Page*/
