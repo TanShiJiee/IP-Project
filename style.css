@@ -15,6 +15,19 @@ header{
     margin-bottom: 0%;
     width: 100%;
 }
+h2, h3, h4{
+    font-family: 'Fredoka One', cursive;
+    font-weight: regular 100;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
 
 #star-position{
     position: absolute;
@@ -41,6 +54,8 @@ header{
     top:35%;
     z-index: 3;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
 }
 
 /*Logo Image*/
@@ -100,10 +115,13 @@ footer{
     padding:1.5%;
     width:50%;
     height:5%;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*"Don't have an account" Text on Login Page*/
 #signup-link a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
     text-decoration: none;
     color: rgb(204, 6, 67);
     background-color: rgba(240, 251, 255, 0.767);
@@ -140,18 +158,15 @@ footer{
     color: #ffffff;
     box-shadow: 2px 2px 20px rgb(254, 188, 89);
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
 }
 
 /*Signup Page*/
-#signup-text{
-    width: 100%;
-    margin-left: 40%;
-}
-
-
 #signup-field{
     padding:0%;
     margin-left: 31%;
+    font-family: 'Roboto', sans-serif;
 }
 
 #email, #password, #confirm-password{
@@ -177,6 +192,8 @@ footer{
     font-size: 18pt;
     box-shadow: 2px 2px 20px rgb(31, 158, 255);
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
 }
 
 /*Home Page*/
@@ -193,20 +210,24 @@ ul {
   
 li a {
     display: block;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 15px 8px;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 li a:hover {
     background-color: rgb(107, 233, 212);
     color: rgb(77, 77, 77) ;
+    text-decoration: none;
 }
 
 .active-nav {
-    background-color: rgb(165, 72, 87);
-    color: white;
+    background-color: rgb(196, 124, 136);
+    color: rgb(0, 0, 0);
 }
 
 
@@ -347,13 +368,15 @@ img {
     font-size: 28pt;
     margin-top: 0%;
     color: rgb(165, 72, 87);
+    font-family: 'Fredoka One', cursive;
 }
 
 .picture-text{
     border-right: solid 10px rgba(0, 255, 106, 0.75);
     white-space: nowrap;
-    overflow: hidden;    
-    font-family: 'Source Code Pro', monospace;  
+    overflow: hidden;   
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder; 
     font-size: 15pt;
     color: rgba(180, 66, 202, 0.7);
     margin: 0 auto;
@@ -364,7 +387,7 @@ img {
 /* text animation */
 @keyframes animated-text{
     from{width: 0;}
-    to{width: 472px;}
+    to{width: 468px;}
   }
   
   /* cursor animations */
@@ -381,6 +404,8 @@ img {
     text-align: center;
     color: #E6E6FA;
     font-size: 23pt;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 #more-info a:link{
@@ -402,12 +427,14 @@ img {
 /*Welcome to ICT text*/
 #welcome-text{
     text-align: center;
-    font-size: 20pt;
+    font-size: 15pt;
     padding:1%;
     border-radius: 15px;
     margin-left: 15%;
     margin-right: 15%;
     background-color: rgba(240, 248, 255, 0.842);
+    font-family: 'Fredoka One', cursive;
+    font-weight: regular 100;
 }
 
 #welcome-text h2{
@@ -441,6 +468,8 @@ img {
     background-color: rgb(31, 157, 255);
     text-decoration: none;
     color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 #more-courses a:hover{
@@ -453,13 +482,17 @@ img {
 }
 
 /*Courses Page (after users click the "find out more" button)*/
-#sketchfab-character{
-    display: flex;
-    justify-content: center;
-    padding-top:2%;
-    padding-bottom:2%;
-    width: 100%;
+#video-container{
+    background-color: rgb(128, 207, 255);
+    margin-bottom: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
+video{
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 #courses-ict{
     text-align: center;
@@ -470,6 +503,7 @@ img {
     margin-left: 10%;
     margin-right: 10%;
     padding:2%;
+
 }
 
 #cictp-info p,#csf-info p,#ds-info p,#it-info p,#im-info p{
@@ -510,6 +544,7 @@ img {
 }
 #game-container h2{
     text-align: center;
+    font-family:'Fredoka One', cursive;
 }
 
 #game-container p{
@@ -645,6 +680,7 @@ img {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.835);
     bottom:0;
+    font-size: 15pt;
     width:100%;
     text-align: center;
     color: #dbdbff;
