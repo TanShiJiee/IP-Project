@@ -142,3 +142,62 @@ function displayEvents(){
     Submit your JPG file to <b>nplogoict@gmail.com</b>"
     displayScore()
 }
+
+//comment section [send to restdb and print on webpage]
+$(document).ready(function () {
+    const APIKEY = "61f2a3b17e5527229501717c";
+    
+    $("#comment-button").on("click", function (e) {
+        e.preventDefault();
+        getComment();
+    })
+    function getComment() {
+        let commentName = $("#comment-name").val();
+        let commentInput = $("#comment-comment").val();
+        var jsondata = {"Name": commentName,"Comment": commentInput};
+        var settings = {
+        "async": true,
+        "crossDomain": true,
+        "url": "https://loginpage-35b6.restdb.io/rest/comments",
+        "method": "POST",
+        "headers": {
+            "content-type": "application/json",
+            "x-apikey": APIKEY,
+            "cache-control": "no-cache"
+        },
+        "processData": false,
+        "data": JSON.stringify(jsondata)
+        }
+
+        $.ajax(settings).done(function (response) {
+        console.log(response);
+        });
+
+        displayComment()
+    
+    };
+});
+function displayComment(){
+    $("#comment-form")[0].reset();
+    var settings = {
+        "async": true,
+        "crossDomain": true,
+        "url": "https://loginpage-35b6.restdb.io/rest/comments",
+        "method": "GET",
+        "headers": {
+          "content-type": "application/json",
+          "x-apikey": APIKEY,
+          "cache-control": "no-cache"
+        }
+    }
+      
+    $.ajax(settings).done(function (response) {
+        let content =''
+        for (var i = 0; i < response.length; i++) {
+            content += "<tr><td>" + response[i].Name +":" + "</td>" +
+            "<td>" + response[i].Comment + "</td>" 
+        }
+        $("#comment-list tbody").html(content);
+    });
+}
+displayComment()
