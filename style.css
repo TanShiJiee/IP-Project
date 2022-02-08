@@ -909,6 +909,7 @@ table{
     margin-left: 5%;
     margin-right: 5%;
 }
+
 #map {
     position: relative;
     height: 400px;
@@ -984,7 +985,7 @@ table{
     /*copyright text*/
     #main-footer{
         color: white;
-        font-size: 8pt;
+        font-size: 5pt;
     }
     
     /*Loading animation after login page*/
@@ -1235,7 +1236,7 @@ table{
         padding: 0.2%;
         text-align: center;
         color: #E6E6FA;
-        font-size: 13pt;
+        font-size: 7pt;
     }
     
     /*ICT Page*/
@@ -1316,7 +1317,6 @@ table{
         margin-left: 5%;
         margin-right: 5%;
         padding:2%;
-    
     }
     
     #cictp-info p,#csf-info p,#ds-info p,#it-info p,#im-info p{
@@ -1341,7 +1341,6 @@ table{
     .showcase-column{
         padding:1%;
         text-align: center;
-
     }
     
     /*Games & Events Page*/
@@ -1576,7 +1575,6 @@ table{
     #events-button:hover{
         box-shadow: 0 9px rgb(112, 111, 111);
         background-color: rgb(255, 169, 40);
-        
     }
     
      /*comment section in Events & Game page*/
@@ -2415,6 +2413,7 @@ table{
         margin:0;
         height:50%;
     }
+
     /*Logo Image*/
     .logo{
         width: 20%;
@@ -2531,7 +2530,6 @@ table{
         margin-bottom:5%;
     }
 
-    
     /*Home Page*/
     /*Navigation Bar*/
     li a {
@@ -2550,7 +2548,6 @@ table{
         background-color: rgb(196, 124, 136);
         color: rgb(0, 0, 0);
     }
-    
     
     /*Slideshow*/
     /* Number text (1/3 etc) */
@@ -2700,6 +2697,7 @@ table{
         width:90%;
         height:700px;
     }  
+
     /*find out more button*/
     #more-courses{
         display: flex;
@@ -2726,6 +2724,7 @@ table{
         border-color:rgb(84, 181, 255);
         background-color: rgb(84, 181, 255);
     }
+
     /*Courses Page (after users click the "find out more" button)*/
     #cictp-info,#csf-info,#ds-info,#it-info,#im-info{
         background-color: rgb(128, 207, 255);
@@ -2759,6 +2758,7 @@ table{
         padding:1%;
         text-align: center;
     }
+
     /*Games & Events Page*/
     #game-container{
         background-color:rgba(254, 188, 89, 0.897) ;
@@ -3169,6 +3169,7 @@ table{
         margin-bottom: 3%;
         font-size: 13pt;
     }
+
     /*Login button to home page with text value*/
     .register-button{
         display: flex;
@@ -3298,7 +3299,6 @@ table{
     }
     
     /*Ngee Ann Poly Old and New Picture*/
-    
     /*text of NP's History and text of why NP*/
     .picture-header{
         text-align: center;
@@ -3368,7 +3368,7 @@ table{
         height:800px;
     }
 
- /*Find out more button*/   
+    /*Find out more button*/   
     #more-courses{
         display: flex;
         justify-content: center;
@@ -3396,9 +3396,7 @@ table{
     }
     
     /*Games & Events Page*/
-    
     /*hide and seek game*/
-    
     #game-text, #game-text-two, #game-text-three{
         position: absolute;
         padding:3%;
@@ -3513,5 +3511,4 @@ table{
         font-size: 20pt;
         display: none;
     }
-
 }
