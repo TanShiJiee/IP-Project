@@ -134,12 +134,12 @@ function finishGame(){
 function displayEvents(){
     document.getElementById("events-button").style.display='none';
     var starGet=localStorage.getItem('stars');
-    localStorage.setItem('stars',parseInt(starGet)+parseInt(2));
+    localStorage.setItem('stars',parseInt(starGet)+parseInt(3));
     document.getElementById("competiton-details").innerHTML = "<h2>You have signed up successfully!</h2><br> Do ensure that your \
     submission meets the requirement before submitting <br> - At least 512 x 512 pixels JPG file <br> \
     - No vulgarities or explicit content  <br> \
     - Must be related to technology<br><br> \
-    Submit your JPG file to <b>nplogoict@gmail.com</b>"
+    Submit your JPG file to <b>nplogoict@gmail.com</b><br><br><b> +3 stars</b>"
     displayScore()
 }
 
