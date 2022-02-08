@@ -8,7 +8,37 @@ This project aims to help students taking their final-year exams or looking to p
 * Through this application/website, students would have the opportunity to have a brief insight into Ngee Ann Polytechnic’s ICT courses.
 
 # Features
+## General
+- Login page and Sign Up page: Users have to either login or sign up to enter the page to make their account more secure.
+- Navigation Bar: Toggle between different pages more easily.
+- Stars Point: Stars will be displayed at the top-right corner with the amount of points they gained from the games and events and it will reset whenever they close the page.
 
+## Home Page
+- Slideshow: Allow users to view images of Ngee Ann Poly facilities.
+- Link to official Ngee Ann Poly webpage: Users can see other courses apart from ICT.
+
+## ICT Page
+- Panorama: View and pan around an illustration of ICT building
+- YouTube Video: Users can find out more about ICT through watching the video.
+- "Find out more" button: Link to courses page.
+-
+### Courses Page
+- Welcome Video: Introduces the Ngee Ann Poly characters.
+- 3D character Model: Pan the model around to see what Immersive Media students do.
+
+## Games and Events Page
+- Quiz: Allow users to test their knowledge of Ngee Ann Poly and ICT, and gain stars.
+- Hide n' Seek Game: Allow users to find the character in different background, and gain stars.
+- Events Section: Find out more about the activities Ngee Ann Poly offers.
+- Comment Section: Interact with others through their comments that they post.
+
+## Shop Page
+- 3D character Model: Pan the model around to take a better look at it before purchasing.
+
+## Contact Page
+- Social media icons: Take users to Ngee Ann Poly official social media accounts.
+- Map: Provides a general pathway of how to go from their location to Ngee Ann Poly.
+- Contact form: Gather users input or questions they have.
 
 # Testing
 
@@ -47,11 +77,11 @@ This project aims to help students taking their final-year exams or looking to p
 
 [Ngee Ann Poly ICT YouTube video](https://youtu.be/9WLK58uFkHU)
 
-[Table for comment](Tables · Bootstrap (getbootstrap.com))
+[Table for comment](https://getbootstrap.com/docs/4.1/content/tables/)
 
-[Ngee ann poly shirt images](The Ngee Ann Shop (@ngeeannshop) • Instagram photos and videos)
+[Ngee ann poly shirt images](https://www.instagram.com/ngeeannshop/?hl=en)
 
-[Form for contact](Forms · Bootstrap (getbootstrap.com))
+[Form for contact](https://getbootstrap.com/docs/4.0/components/forms/)
 
 ## Content
 * Slideshow in the Home Page was referenced from [w3schools](https://www.w3schools.com/howto/howto_js_slideshow.asp).
@@ -66,7 +96,15 @@ This project aims to help students taking their final-year exams or looking to p
 
 # Contribution
 ## Tan Shi Jie (10223344F)
-
+- Signup Page:
+- ICT Page:
+- Courses Page:
+- Games and Events Page:
+- Media Screen (360x760 & 768x1024)
 ## Jessica Lim (10228013K)
-
+- Login Page: 
+- Home Page:
+- Shop Page:
+- Contact:
+- Media Screen (1280x800 & 1920x1080)
 
