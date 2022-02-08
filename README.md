@@ -110,3 +110,4 @@ This project aims to help students taking their final-year exams or looking to p
 - Contact:
 - Media Screen (1280x800 & 1920x1080)
 
+# [Github Page](https://tanshijiee.github.io/IP-Project/)
