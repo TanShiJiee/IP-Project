@@ -924,13 +924,12 @@ table{
 }
 
 /* Samsung Galaxy S10 360*760 */
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 360px){
     #star-position{
         position: absolute;
         width:20%;
-        height: 15%;
         right:0;
-        top:0;
+        top:5%;
         z-index: 2;
         overflow: hidden;
         text-align: center
@@ -938,18 +937,18 @@ table{
     
     #star-image{
         position: relative;
-        width:100%;  
+        width:80%;  
         z-index: 2;
     }
     
     #score-top{
         position: absolute;
-        font-size: 18pt;
+        font-size: 12pt;
         width: 100%;
-        top: 21%;
+        top: 19%;
         z-index: 3;
         margin:0;
-        height:50%
+        height:50%;
     }
     
     /*Logo Image*/
@@ -1727,15 +1726,12 @@ table{
         padding: 2%;
     }
 }
-
-/* Ipad 768*1024 */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 540px) {
     #star-position{
         position: absolute;
         width:20%;
-        height: 15%;
         right:0;
-        top:0;
+        top:7%;
         z-index: 2;
         overflow: hidden;
         text-align: center
@@ -1743,7 +1739,7 @@ table{
     
     #star-image{
         position: relative;
-        width:100%;  
+        width:80%;  
         z-index: 2;
     }
     
@@ -1751,12 +1747,40 @@ table{
         position: absolute;
         font-size: 18pt;
         width: 100%;
-        top: 21%;
+        top: 29%;
         z-index: 3;
         margin:0;
-        height:50%
+        height:50%;
+    }
+}
+
+/* Ipad 768*1024 */
+@media screen and (min-width: 768px) {
+    #star-position{
+        position: absolute;
+        width:20%;
+        right:0;
+        top:5%;
+        z-index: 2;
+        overflow: hidden;
+        text-align: center
     }
     
+    #star-image{
+        position: relative;
+        width:80%;  
+        z-index: 2;
+    }
+    
+    #score-top{
+        position: absolute;
+        font-size: 23pt;
+        width: 100%;
+        top: 30%;
+        z-index: 3;
+        margin:0;
+        height:50%;
+    }
     /*Logo Image*/
     .logo{
         width: 60%;
@@ -2366,9 +2390,34 @@ table{
 
 /* Web 1280 1280*800 */
 @media screen and (min-width: 1280px) {
+    #star-position{
+        position: absolute;
+        width:20%;
+        right:0;
+        top:5%;
+        z-index: 2;
+        overflow: hidden;
+        text-align: center
+    }
+    
+    #star-image{
+        position: relative;
+        width:30%;  
+        z-index: 2;
+    }
+    
+    #score-top{
+        position: absolute;
+        font-size: 23pt;
+        width: 100%;
+        top: 30%;
+        z-index: 3;
+        margin:0;
+        height:50%;
+    }
     /*Logo Image*/
     .logo{
-        width: 30%;
+        width: 20%;
         display: flex;
         padding: 0%;
         justify-content: center;
@@ -2384,7 +2433,7 @@ table{
     }
     
     .front-logo{
-        width:50%;
+        width:40%;
         border-radius: 15px;
         margin-top: 2%;
     }
@@ -2413,9 +2462,47 @@ table{
     }
     
     /*Login Page*/
-    #login-button{
+    #login-field{
+        padding:0%;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    
+    .email, .password{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:1.5%;
+        width:100%;
+        font-size: 20pt;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    /*"Don't have an account" Text on Login Page*/
+    #signup-link a{
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+        text-decoration: none;
+        color: rgb(204, 6, 67);
+        background-color: rgba(240, 251, 255, 0.904);
         padding:2%;
-        width:20%;
+        border-radius: 5px;
+        width:100%;
+    }
+    
+    #signup-link{
+        width:57%;
+        margin-top: 1%;
+        margin-left: 35%;
+        margin-right:35%;
+        padding-bottom: 2%;
+        margin-bottom: 3%;
+        font-size: 13pt;
+    }
+
+    #login-button{
+        padding:1%;
+        width:15%;
         background-color: rgb(254, 188, 89);
         border: none;
         border-radius: 10px;
@@ -2430,8 +2517,8 @@ table{
 
     /*Signup Page*/
     #signup-button{
-        padding:2%;
-        width:20%;
+        padding:1%;
+        width:15%;
         background-color: rgb(31, 158, 255);
         border-radius: 10px;
         color: #fdfdff;
@@ -2625,7 +2712,6 @@ table{
         font-size: 30pt;
         border-style: solid;
         border-color:  rgb(31, 157, 255);
-        border-radius: 17px;
         border-width: 15px;
         background-color: rgb(31, 157, 255);
         text-decoration: none;
@@ -2633,7 +2719,13 @@ table{
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
     }
- 
+    
+    #more-courses a:hover{
+        font-size: 30pt;
+        border-style: solid;
+        border-color:rgb(84, 181, 255);
+        background-color: rgb(84, 181, 255);
+    }
     /*Courses Page (after users click the "find out more" button)*/
     #cictp-info,#csf-info,#ds-info,#it-info,#im-info{
         background-color: rgb(128, 207, 255);
@@ -2861,14 +2953,15 @@ table{
         margin-bottom: 3%;
         margin-top: 2%;
         width: 80%;
-        padding:2%;
+        padding:1%;
         font-size: 20pt;
      }
     
      #comment-comment{
         margin-bottom: 3%;
         width: 80%;
-        padding:2%;
+        padding:1%;
+        padding-bottom: 2%;
         font-size: 20pt;
     }
     
@@ -2928,12 +3021,12 @@ table{
         padding: 2%;
         color: white;
         text-align: center;
-        flex: 30%;
-        width:5%;
+        flex: 10%;
+        width:2%;
         margin:4%;
         margin-top:1%;
         margin-bottom: 5%;
-        font-size: 25pt;
+        font-size: 15pt;
     }
     
     .stars-button{
@@ -2966,6 +3059,32 @@ table{
 
 /* Web 1280 1920*1080 */
 @media screen and (min-width: 1920px) {
+    #star-position{
+        position: absolute;
+        width:20%;
+        right:0;
+        top:5%;
+        z-index: 2;
+        overflow: hidden;
+        text-align: center
+    }
+    
+    #star-image{
+        position: relative;
+        width:40%;  
+        z-index: 2;
+    }
+    
+    #score-top{
+        position: absolute;
+        font-size: 25pt;
+        width: 100%;
+        top: 38%;
+        z-index: 3;
+        margin:0;
+        height:50%;
+    }
+
     /*Logo Image*/
     .logo{
         width: 25%;
@@ -3062,8 +3181,8 @@ table{
     }
     
     #login-button{
-        padding:2%;
-        width:20%;
+        padding:1%;
+        width:13%;
         background-color: rgb(254, 188, 89);
         border: none;
         border-radius: 10px;
@@ -3100,8 +3219,8 @@ table{
     }
     
     #signup-button{
-        padding:2%;
-        width:20%;
+        padding:12%;
+        width:13%;
         background-color: rgb(31, 158, 255);
         border-radius: 10px;
         color: #fdfdff;
@@ -3261,7 +3380,6 @@ table{
         font-size: 28pt;
         border-style: solid;
         border-color:  rgb(31, 157, 255);
-        border-radius: 17px;
         border-width: 15px;
         background-color: rgb(31, 157, 255);
         text-decoration: none;
