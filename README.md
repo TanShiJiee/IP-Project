@@ -21,8 +21,8 @@ This project aims to help students taking their final-year exams or looking to p
 - Panorama: View and pan around an illustration of ICT building
 - YouTube Video: Users can find out more about ICT through watching the video.
 - "Find out more" button: Link to courses page.
--
-### Courses Page
+
+##### Courses Page
 - Welcome Video: Introduces the Ngee Ann Poly characters.
 - 3D character Model: Pan the model around to see what Immersive Media students do.
 
@@ -50,6 +50,7 @@ This project aims to help students taking their final-year exams or looking to p
 - [Bootstrap](https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css)
 - [Vita](https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css)
 - [Panoraven](https://panoraven.com/en/share-360-photo)
+- [restDB](https://restdb.io/)
 
 # Credits
 ## Media
@@ -79,29 +80,28 @@ This project aims to help students taking their final-year exams or looking to p
 
 [Ngee Ann Poly ICT YouTube video](https://youtu.be/9WLK58uFkHU)
 
-[Table for comment](https://getbootstrap.com/docs/4.1/content/tables/)
-
 [Ngee ann poly shirt images](https://www.instagram.com/ngeeannshop/?hl=en)
 
-[Form for contact](https://getbootstrap.com/docs/4.0/components/forms/)
 
 ## Content
 * Slideshow in the Home Page was referenced from [w3schools](https://www.w3schools.com/howto/howto_js_slideshow.asp).
 * Text fonts used from [Google Fonts](https://fonts.google.com/)
 * Normalize.css file downloaded from [Github](https://necolas.github.io/normalize.css/)
 * Typing effect in the Home Page was referenced from [w3schools](https://www.sitepoint.com/css-typewriter-effect/).
+* Form in the Contact Page was referenced from [Bootstrap](https://getbootstrap.com/docs/4.0/components/forms/) 
+* Table in Games and Events Page was referenced from [Bootstrap](https://getbootstrap.com/docs/4.1/content/tables/)
 
 ## Acknowledgements
 * We would like to thank Charlene, Anqi, Rovee and Peiwen for being our models for our pictures for our webpage.
 * We would like to thank our teachers for all the consultation and feedback on this assignment.
 * We would like to credit Ngee Ann Poly for the Information links, YouTube Video and Images used in this assignment.
 
-# Contribution
+# Contribution for ID
 ## Tan Shi Jie (10223344F)
-- Signup Page:
-- ICT Page:
-- Courses Page:
-- Games and Events Page:
+- Signup Page: Coded signup page, added API for users to register their account.
+- ICT Page: Coded layout and styled ICT page, added panorama and video for more interactivity.
+- Courses Page: Coded layout and style Courses Page, added 3D models to showcase. 
+- Games and Events Page: Coded layout and styled page, adding Javscript for the games and API for comments to be displayed on the page and updated on restDB
 - Media Screen (360x760 & 768x1024)
 ## Jessica Lim (10228013K)
 - Login Page: 
@@ -111,3 +111,4 @@ This project aims to help students taking their final-year exams or looking to p
 - Media Screen (1280x800 & 1920x1080)
 
 # [Github Page](https://tanshijiee.github.io/IP-Project/)
+### https://tanshijiee.github.io/IP-Project/
