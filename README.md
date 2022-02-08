@@ -41,6 +41,8 @@ This project aims to help students taking their final-year exams or looking to p
 - Contact form: Gather users input or questions they have.
 
 # Testing
+- Tested on Microsoft Edge to see whether it displays properly.
+- Tested on Google Chrome to see whether it displays properly.
 
 # Technologies used
 - [JQuery](https://jquery.com)
