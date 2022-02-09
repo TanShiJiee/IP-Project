@@ -106,10 +106,10 @@ This project aims to help students taking their final-year exams or looking to p
 - Games and Events Page: Coded layout and styled page, adding Javscript for the games and API for comments to be displayed on the page and updated on restDB
 - Media Screen (360x760 & 768x1024)
 ## Jessica Lim (10228013K)
-- Login Page: 
-- Home Page:
-- Shop Page:
-- Contact:
+- Login Page: Coded login page, added API for users to login to their register account.
+- Home Page: Coded layout and styled Home page, added javascript for the slideshow and Css typing effect for more interacivity.
+- Shop Page: Coded layout and style Shop page, added Ngee Ann poly tee-shirt, tote bag and 3D model for users to purchase.
+- Contact Page: Coded layout and style Contact page, added link for the social media, API for the map to show users the general pathway from their location to Ngee Ann Poly and API for the contact form so that the information can be stored on restDB.
 - Media Screen (1280x800 & 1920x1080)
 
 # [Github Page](https://tanshijiee.github.io/IP-Project/)
