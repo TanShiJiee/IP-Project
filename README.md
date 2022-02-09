@@ -1,6 +1,8 @@
 # Discover NP ICT Application
 This project aims to help students taking their final-year exams or looking to pursue a full-time diploma in Ngee Ann Polytechnic and pursue their dreams of a career related to the Information Technology (ICT) pathway. Through this application/website, students would have the opportunity to have a brief insight into Ngee Ann Polytechnic’s ICT courses.
 ## Design Rationale
+- Main colour palette are purple, blue and orange.
+- We wanted a theme related to technology.
 
 ## Target Audience
 * The target audience for the webpage are people looking to find out about Ngee Ann Poly's ICT courses.
@@ -112,5 +114,5 @@ This project aims to help students taking their final-year exams or looking to p
 - Contact Page: Coded layout and style Contact page, added link for the social media, API for the map to show users the general pathway from their location to Ngee Ann Poly and API for the contact form so that the information can be stored on restDB.
 - Media Screen (1280x800 & 1920x1080)
 
-# [Github Page](https://tanshijiee.github.io/IP-Project/)
+# Github Page
 ### https://tanshijiee.github.io/IP-Project/
