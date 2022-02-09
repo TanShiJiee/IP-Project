@@ -43,6 +43,8 @@ This project aims to help students taking their final-year exams or looking to p
 # Testing
 - Tested on Microsoft Edge to see whether it displays properly.
 - Tested on Google Chrome to see whether it displays properly.
+- Tested on each others computer to check whether it display properly.
+- Tested on other friends computer to check whether it display properly.
 
 # Technologies used
 - [JQuery](https://jquery.com)
