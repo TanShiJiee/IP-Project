@@ -47,6 +47,8 @@ This project aims to help students taking their final-year exams or looking to p
 - Tested on Google Chrome to see whether it displays properly.
 - Tested on each others computer to check whether it display properly.
 - Tested on other friends computer to check whether it display properly.
+- Checked for html errors on [Markup Validation Service](https://validator.w3.org/)
+- Checked for css errors on [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 # Technologies used
 - [JQuery](https://jquery.com)
