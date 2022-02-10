@@ -95,8 +95,8 @@ $(document).ready(function () {
       });
       // set the bounds of the map
       const bounds = [
-        [101.775249, 1.033002],
-        [104.775249, 1.433002]
+        [100.775249, 1.023002],
+        [104.775249, 3.433002]
       ];
       map.setMaxBounds(bounds);
 
