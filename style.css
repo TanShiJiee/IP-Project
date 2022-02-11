@@ -164,7 +164,7 @@ footer{
     background-color: rgb(254, 188, 89);
     border-radius: 10px;
     font-size: 18pt;
-    color: #ffffff;
+    color: #000000;
     box-shadow: 2px 2px 20px rgb(254, 188, 89);
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -443,7 +443,7 @@ img {
 }
 
 #welcome-text h2{
-    color:rgb(139, 94, 243);
+    color:#6F348A;
 }
 
 .ict-video{
@@ -1049,7 +1049,7 @@ table{
         border: none;
         border-radius: 10px;
         font-size: 20pt;
-        color: #ffffff;
+        color: #000000;
         box-shadow: 2px 2px 20px rgb(254, 188, 89);
         text-align: center;
         font-family: 'Roboto', sans-serif;
@@ -1250,7 +1250,7 @@ table{
     }
     
     #welcome-text h2{
-        color:rgb(139, 94, 243);
+        color:#6F348A;
     }
     
     .ict-video{
@@ -1836,7 +1836,7 @@ table{
         border: none;
         border-radius: 10px;
         font-size: 20pt;
-        color: #ffffff;
+        color: #000000;
         box-shadow: 2px 2px 20px rgb(254, 188, 89);
         text-align: center;
         font-family: 'Roboto', sans-serif;
@@ -2016,7 +2016,7 @@ table{
     }
     
     #welcome-text h2{
-        color:rgb(139, 94, 243);
+        color:#6F348A;
     }
     
     .ict-video{
@@ -2516,7 +2516,7 @@ table{
         border: none;
         border-radius: 10px;
         font-size: 20pt;
-        color: #ffffff;
+        color: #000000;
         box-shadow: 2px 2px 20px rgb(254, 188, 89);
         text-align: center;
         font-family: 'Roboto', sans-serif;
@@ -2694,7 +2694,7 @@ table{
     }
     
     #welcome-text h2{
-        color:rgb(139, 94, 243);
+        color:#6F348A;
     }
     
     .ict-video{
@@ -3200,7 +3200,7 @@ table{
         border: none;
         border-radius: 10px;
         font-size: 35pt;
-        color: #ffffff;
+        color: #000000;
         box-shadow: 2px 2px 20px rgb(254, 188, 89);
         text-align: center;
         font-family: 'Roboto', sans-serif;
@@ -3365,7 +3365,7 @@ table{
     }
     
     #welcome-text h2{
-        color:rgb(139, 94, 243);
+        color:#6F348A;
         font-size: 40pt;
     }
     
