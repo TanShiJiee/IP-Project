@@ -514,6 +514,10 @@ video{
 
 }
 
+#showcase-text{
+    text-shadow: 0 0 3px #b65be0;
+}
+
 #cictp-info p,#csf-info p,#ds-info p,#it-info p,#im-info p{
     background-color: rgba(240, 248, 255, 0.842);
     padding:3%;
@@ -2043,6 +2047,10 @@ table{
         font-size: 30pt;
     }
     
+    #showcase-text{
+        text-shadow: 0 0 3px #b65be0;
+    }
+
     #cictp-info p,#csf-info p,#ds-info p,#it-info p,#im-info p{
         background-color: rgba(240, 248, 255, 0.842);
         padding:3%;
@@ -2748,6 +2756,10 @@ table{
         font-size: 33pt;
     }
     
+    #showcase-text{
+        text-shadow: 0 0 3px #b65be0;
+    }
+
     #cictp-info p,#csf-info p,#ds-info p,#it-info p,#im-info p{
         background-color: rgba(240, 248, 255, 0.842);
         padding:3%;
