@@ -3,6 +3,10 @@ This project aims to help students taking their final-year exams or looking to p
 ## Design Rationale
 - Main colour palette are purple, blue and orange.
 - We wanted a theme related to technology.
+- We want the webpage to be interactive and engaging.
+- We want to see relavent information provided according to the website.
+- We want it to be able to view it from a phone perspective.
+- We want the information to be readable along with the pictures.
 
 ## Target Audience
 * The target audience for the webpage are people looking to find out about Ngee Ann Poly's ICT courses.
