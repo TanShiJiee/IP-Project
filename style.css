@@ -3401,9 +3401,9 @@ table{
     }
     
     #more-courses a{
-        font-size: 28pt;
+        font-size: 34pt;
         border-style: solid;
-        border:none;
+        border-color:  rgb(31, 157, 255);
         border-width: 15px;
         background-color: rgb(31, 157, 255);
         text-decoration: none;
@@ -3413,10 +3413,12 @@ table{
     }
     
     #more-courses a:hover{
-        font-size: 28pt;
+        font-size: 34pt;
         border-style: solid;
+        border-color:rgb(84, 181, 255);
         background-color: rgb(84, 181, 255);
     }
+
     
     /*Games & Events Page*/
     /*hide and seek game*/
